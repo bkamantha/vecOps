@@ -7,7 +7,7 @@ Installation
 
    .. code-block:: console
 
-      $ pip install vecops
+      $ pip install -i https://test.pypi.org/simple/ vecops
 
 Creating a Virtual Environment
 -------------------------------
