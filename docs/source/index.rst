@@ -22,21 +22,21 @@ Installation
 
    .. code-block:: console
 
-      (.venv) $ pip install vecops
+      (.venv) $ pip install -i https://test.pypi.org/simple/ vecops
 
    and simply import it in your project:
    
    .. code-block:: python
 
-      from vecops import VectorOperations
+      from vecops.vector_operations import Vector2D, Vector3D
 
 Vector Operations Summary
 -------------------------
 
    The `Vector2D` and `Vector3D` classes are used for performing vector operations in 2D and 3D space respectively. 
 
-   Vector2D Operations
-   -------------------
+Vector2D Operations
+-------------------
 
       - Initialization of vectors with x and y coordinates.
       - Addition and subtraction of vectors.
@@ -45,8 +45,8 @@ Vector Operations Summary
       - Checking if two vectors are equal.
       - String representation of the vector.
 
-   Vector3D Operations
-   -------------------
+Vector3D Operations
+-------------------
 
       - Initialization of vectors with x, y, and z coordinates.
       - Addition and subtraction of vectors.
