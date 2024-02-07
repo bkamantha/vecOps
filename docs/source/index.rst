@@ -30,41 +30,27 @@ Installation
 
       from vecops import VectorOperations
 
-Usage
------
+Vector Operations Summary
+-------------------------
 
-.. note::
-   The following parameter are supported by vecops funcitons:
+   The `Vector2D` and `Vector3D` classes are used for performing vector operations in 2D and 3D space respectively. 
 
-      .. py:function:: VectorOperations.<function>(vector1, vector2)
+   Vector2D Operations
+   -------------------
 
-            :param vector1: The first vector.
-            :type vector1: list
-            :param vector2: The second vector.
-            :type vector2: list
-            :return: The result of the two vectors operation.
-            :rtype: list
+      - Initialization of vectors with x and y coordinates.
+      - Addition and subtraction of vectors.
+      - Calculation of the dot product of two vectors.
+      - Calculation of the cross product of two vectors, which returns a scalar.
+      - Checking if two vectors are equal.
+      - String representation of the vector.
 
-   The following operations are supported by vecops:
+   Vector3D Operations
+   -------------------
 
-   - **Adding Vectors:**
-     To add vectors, pass `vector1` and `vector2` as arguments to the `add_vectors` function.
-
-     .. code-block:: python
-
-        VectorOperations.add_vectors(vector1, vector2)
-
-   - **Subtracting Vectors:**
-     To subtract vectors, pass `vector1` and `vector2` as arguments to the `subtract_vectors` function.
-
-     .. code-block:: python
-
-        VectorOperations.subtract_vectors(vector1, vector2)
-
-   - **Dot Product:**
-     To calculate the dot product, pass `vector1` and `vector2` as arguments to the `dot_product` function.
-
-     .. code-block:: python
-
-        VectorOperations.dot_product(vector1, vector2)
-
+      - Initialization of vectors with x, y, and z coordinates.
+      - Addition and subtraction of vectors.
+      - Calculation of the dot product of two vectors.
+      - Calculation of the cross product of two vectors, which returns a new vector.
+      - Checking if two vectors are equal.
+      - String representation of the vector.

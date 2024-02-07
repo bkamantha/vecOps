@@ -11,7 +11,7 @@ setup(
     name="vecops",
 
     # Version of the project (REQUIRED)
-    version="1.0.3",
+    version="1.1.1",
 
     # Packages to include (EITHER py_modules OR packages should be present)
     packages=find_packages(exclude="tests"),
@@ -23,7 +23,7 @@ setup(
     long_description=README_MD,
 
     # Project URL (OPTIONAL)
-    # url="",
+    url="https://github.com/bkamantha/vecOps",
 
     # Author information (OPTIONAL)
     author_name="Bhanuka Kamantha",

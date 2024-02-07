@@ -56,7 +56,7 @@ It's recommended to use a virtual environment to manage the dependencies for you
 
    .. code-block:: console
 
-      (venv) $ pip install vecops
+      (venv) $ pip install -i https://test.pypi.org/simple/ vecops
 
    Now, vecops is installed in your virtual environment, and you can use it within this isolated environment for your project.
 

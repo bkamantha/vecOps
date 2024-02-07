@@ -4,8 +4,12 @@ The `VectorOperations` class provides static methods for performing operations o
 
 ## Installation
 
+```cmd
+pip install -i https://test.pypi.org/simple/ vecops
+```
+
 No additional installation is required. Simply import the `vecops` class from the `VectorOperations` module in your Python script or project.
 
 ```python
-from vecops import VectorOperations
+from vecops.vector_operations import Vector2D, Vector3D
 ```
